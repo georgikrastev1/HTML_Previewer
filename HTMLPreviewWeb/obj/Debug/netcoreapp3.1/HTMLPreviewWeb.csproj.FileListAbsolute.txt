@@ -148,3 +148,8 @@ C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\H
 C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\HTMLPreviewWeb.dll
 C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\HTMLPreviewWeb.pdb
 C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\HTMLPreviewWeb.genruntimeconfig.cache
+C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\Razor\Pages\HTML_Editor\Create.cshtml.g.cs
+C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\Razor\Pages\HTML_Editor\Delete.cshtml.g.cs
+C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\Razor\Pages\HTML_Editor\Details.cshtml.g.cs
+C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\Razor\Pages\HTML_Editor\Edit.cshtml.g.cs
+C:\Users\georg\source\repos\HTMLPreview\HTMLPreviewWeb\obj\Debug\netcoreapp3.1\Razor\Pages\HTML_Editor\Index.cshtml.g.cs
