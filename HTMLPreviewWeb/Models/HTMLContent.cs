@@ -13,5 +13,8 @@ namespace HTMLPreviewWeb.Models
         public string Description { get; set; }
         [Column("Content")]
         public string Content { get; set; }
+
+        [Display(Name = "Last Modified")]
+        public System.DateTime LastModified { get; set; } = DateTime.Now;
     }
 }

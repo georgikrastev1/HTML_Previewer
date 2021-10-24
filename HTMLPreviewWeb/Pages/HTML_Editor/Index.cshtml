@@ -16,6 +16,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.HTMLContent[0].Description)
             </th>
+            <th>Actions</th>
+            <th>
+                @Html.DisplayNameFor(model => model.HTMLContent[0].LastModified)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -29,6 +33,9 @@
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastModified)
             </td>
         </tr>
 }
