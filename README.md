@@ -15,8 +15,8 @@ HTML_Previewer is a webapplication for storing html code.
 
 ## Usage
 To start:
-1. From the home screen click the green button "Start Editor" or select the Editor tab
-2. You get redirected to page with list of current HTML saved in the app
+    1. From the home screen click the green button "Start Editor" or select the Editor tab
+    2. You get redirected to page with list of current HTML saved in the app
 
 1. Create New
     1. Click on add new to add new html code
