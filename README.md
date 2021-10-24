@@ -1,34 +1,26 @@
-# Foobar
+# HTML_Previewer
 
-Foobar is a Python library for dealing with word pluralization.
-
+HTML_Previewer is a webapplication for storing html code.
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+1. Pull from repository
+2. Install the following NuGet packages:
+- Microsoft.EntityFrameworkCore.Design version 3.1.20
+- Microsoft.EntityFrameworkCore.SqlServer version 3.1.20
+- Microsoft.EntityFrameworkCore.Tools version 3.1.20
+- Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.5
+4. Apply migrations
+5. Run 
 
 ## Usage
+To start:
+1. From the home screen select Editor
+2. You get redirected to page with list of current HTML saved in the app
 
-```python
-import foobar
+Create New
+1. Click on add new to add new html code
+2. Click on run to preview the html code in the green box on the left 
+3. Click on save to save the code in the database
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Share a link: 
+1. From 
