@@ -20,10 +20,22 @@ namespace HTMLPreviewWeb.Pages.HTML_Editor
         }
 
         public IList<HTMLContent> HTMLContent { get;set; }
-
+        
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+        
         public async Task OnGetAsync()
         {
-            HTMLContent = await _context.HTMLContent.ToListAsync();
+            //HTMLContent = await _context.HTMLContent.ToListAsync();
+
+            var htmlcontent = from m in _context.HTMLContent
+                         select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                htmlcontent = htmlcontent.Where(s => s.Content.Contains(SearchString));
+            }
+
+            HTMLContent = await htmlcontent.ToListAsync();
         }
     }
 }
