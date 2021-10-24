@@ -1,6 +1,6 @@
 # HTML_Previewer
 
-HTML_Previewer is a webapplication for storing html code.
+HTML_Previewer is a webapplication for storing and previewing html code.
 ## Installation
 
 1. Create a new ASP.NET Core Web App
