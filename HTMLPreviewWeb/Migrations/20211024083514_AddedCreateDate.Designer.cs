@@ -4,14 +4,16 @@ using HTMLPreviewWeb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HTMLPreviewWeb.Migrations
 {
     [DbContext(typeof(HTMLPreviewWebContext))]
-    partial class HTMLPreviewWebContextModelSnapshot : ModelSnapshot
+    [Migration("20211024083514_AddedCreateDate")]
+    partial class AddedCreateDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

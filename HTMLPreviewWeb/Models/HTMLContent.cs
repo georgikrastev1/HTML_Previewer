@@ -16,5 +16,10 @@ namespace HTMLPreviewWeb.Models
 
         [Display(Name = "Last Modified")]
         public System.DateTime LastModified { get; set; } = DateTime.Now;
+
+        [Display(Name = "Create Date")]
+        [DataType(DataType.DateTime)]
+        public DateTime CreateDate { get; set; }
+
     }
 }
