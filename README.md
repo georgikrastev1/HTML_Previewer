@@ -3,8 +3,9 @@
 HTML_Previewer is a webapplication for storing html code.
 ## Installation
 
-1. Pull from repository
-2. Install the following NuGet packages:
+1. Create a new ASP.NET Core Web App
+2. Pull from repository
+3. Install the following NuGet packages:
 - Microsoft.EntityFrameworkCore.Design version 3.1.20
 - Microsoft.EntityFrameworkCore.SqlServer version 3.1.20
 - Microsoft.EntityFrameworkCore.Tools version 3.1.20
@@ -23,4 +24,9 @@ Create New
 3. Click on save to save the code in the database
 
 Share a link: 
-1. From 
+1. Create a new entry
+2. Save it
+3. Find your entry in the list and right click on View Details / Share link.
+4. Click on copy link address 
+5. Alternatively: left click and copy link from the browser address bar
+ 
